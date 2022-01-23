@@ -39,5 +39,9 @@ In this mode you can draw Collider2D components of objects, drag objects around 
   - Environment: Draw colliders of every object, such as ground, walls spikes
   - Zones: seems like this does nothing, yet :( Should draw spawn and trigger zones, but it doesn't
   - Mouse Inspection: When enabled, you can right click an object to open a details menu on them. Hold left click and hover on objects until you catched them, to drag them around with the cursor (This is a bit buggy for enemies and player, so make sure you hold left click until you got it)
+
 ##Performance mode
 In the top left corner of the Debug-Menu, there is a checkbox for performance mode. Check it, to skips some frames of the Debug-Mode to increase performance. I recommend to only use this, if your game get's real laggy
+![a](https://user-images.githubusercontent.com/59608685/150696698-a96e318d-d927-4e8d-a875-12cb46beab4a.JPG)
+![b](https://user-images.githubusercontent.com/59608685/150696725-27c7c787-29b7-4944-866a-514815397363.JPG)
+![c](https://user-images.githubusercontent.com/59608685/150696748-fd20f537-d89a-492f-a01d-05ad982bf08e.JPG)
