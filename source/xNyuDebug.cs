@@ -218,8 +218,8 @@ public class xNyuDebug : MonoBehaviour
             //Inspector mode
             if (InspectorModeActive)
             {
-				if (InspectorRaycastHits.Count > 0) GUI.Label(new Rect(100f, 100f, 500f, 500f), "Hits: " + InspectorRaycastHits.Count.ToString(), StyleAbout);
-				if (InspectorRaycastHitsOld.Count > 0) GUI.Label(new Rect(100f, 200f, 500f, 500f), "Nyus: " + InspectorRaycastHitsOld.Count.ToString(), StyleAbout);
+				//if (InspectorRaycastHits.Count > 0) GUI.Label(new Rect(100f, 100f, 500f, 500f), "Hits: " + InspectorRaycastHits.Count.ToString(), StyleAbout);
+				//if (InspectorRaycastHitsOld.Count > 0) GUI.Label(new Rect(100f, 200f, 500f, 500f), "Nyus: " + InspectorRaycastHitsOld.Count.ToString(), StyleAbout);
 
 				//Checkbox 1
 				GUI.Box(new Rect(2700f * scr_scale_w, 50f * scr_scale_h, 28f * scr_scale_w, 28f * scr_scale_h), "", StyleWhiteBox);
@@ -2141,8 +2141,8 @@ public class xNyuDebug : MonoBehaviour
 			lines[6] = "NUM_7:Camera.Zoom(-1)";
 			lines[7] = "NUM_8:Camera.Unlock()";
 			lines[8] = "NUM_9:Camera.Zoom(1)";
-			lines[9] = "F1:Special.PauseGame()";
-			lines[10] = "F2:Special.ResumeGame()";
+			lines[9] = "F1:Game.PauseGame()";
+			lines[10] = "F2:Game.ResumeGame()";
 			lines[11] = "F3:None";
 			lines[12] = "F4:None";
 			lines[13] = "F5:None";
